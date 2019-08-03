@@ -1,5 +1,7 @@
 # Arduino_Fish_Lamp
 
+Clock -> Clock_and_Relay
+
 Help from these websites:
 
 About OLED
@@ -10,7 +12,7 @@ About Wifi and Clock
 http://blog.daum.net/_blog/BlogTypeView.do?blogid=0ZPt7&articleno=2683&categoryId=7&regdt=20181013201431
 
 
-Change these were very important to me in OLED test. 
+Changing these was very important to me in OLED test. 
 Wire.begin(5, 4); // add
 0X3C, false, false);  // modify
 
